@@ -164,9 +164,9 @@ This query returns the time of departure.
 ```void display() const;```
 This member function sends the information about a Train to the standard output in the following format if the object holds valid data values.
 ```
-NAME OF THE TRAIN : The name of the train
-NUMBER OF PASSENGERS  : 9999
-DEPARTURE TIME        : 9999
+NAME OF THE TRAIN:    The name of the train
+NUMBER OF PASSENGERS: 9999
+DEPARTURE TIME:       9999
 ```
 Otherwise it will print:
 `Train in an invalid State!`
