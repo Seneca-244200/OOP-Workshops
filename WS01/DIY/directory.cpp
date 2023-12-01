@@ -8,11 +8,12 @@
 //
 // Revision History
 // -----------------------------------------------------------
-// Name            Date            Reason
+//Cristhian Rosero            Sept-12-2023            Reason
 ***********************************************************************/
 #include "Phone.h"
+
 using namespace sdds;
 int main() {
-   phoneDir("Star Wars", "phones.txt");
+   phoneDir( "Star Wars","phones.txt");
    return 0;
 }

@@ -1,0 +1,13 @@
+Employee.cpp: In function ‘bool sdds::load(sdds::Employee&)’:
+Employee.cpp:34:35: error: ‘strLen’ is not a member of ‘sdds’
+             emp.m_name = new char[sdds::strLen(name) + 1];
+                                   ^
+Employee.cpp:35:13: error: ‘strnCpy’ is not a member of ‘sdds’
+             sdds::strnCpy(emp.m_name, name, sdds::strLen(name));
+             ^
+Employee.cpp:35:45: error: ‘strLen’ is not a member of ‘sdds’
+             sdds::strnCpy(emp.m_name, name, sdds::strLen(name));
+                                             ^
+Employee.cpp:36:24: error: ‘strLen’ is not a member of ‘sdds’
+             emp.m_name[sdds::strLen(name)] = '\0';
+                        ^

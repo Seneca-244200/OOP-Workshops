@@ -8,8 +8,9 @@
 //
 // Revision History
 // -----------------------------------------------------------
-// Name                 Date            Reason
+// Cristhian Rosero   09/28/2023            Reason
 ***********************************************************************/
+
 
 #include <iostream>
 #include "Train.h"
@@ -31,10 +32,11 @@ int main() {
 	cout << "----------------------------------------" << endl;
 	cout << "1. Testing the load function." << endl;
 	cout << "----------------------------------------" << endl;
-	for(i = 0; i < 2; i++) {
-		if(B.load(notBoarded)) {
+	for (i = 0; i < 2; i++) {
+		if (B.load(notBoarded)) {
 			cout << "Boarding Complete..." << endl;
-		} else {
+		}
+		else {
 			cout << "Train is full, " << notBoarded << " passengers could not be boarded." << endl;
 		}
 	}
@@ -43,10 +45,10 @@ int main() {
 	cout << "----------------------------------------" << endl;
 	cout << "Departure time is " << B.getDepartureTime() << endl;
 	do {
-		if(!B.updateDepartureTime()) {
-			cout << "Invalid departure time, valid times are between " << MIN_TIME << " and " << MAX_TIME <<"!" <<  endl;
+		if (!B.updateDepartureTime()) {
+			cout << "Invalid departure time, valid times are between " << MIN_TIME << " and " << MAX_TIME << "!" << endl;
 		}
-	} while(B.isInvalid());
+	} while (B.isInvalid());
 	cout << "New departuer time is " << B.getDepartureTime() << endl;
 	cout << "----------------------------------------" << endl;
 	cout << "3. Testing the transfer function." << endl;
@@ -69,9 +71,10 @@ void transfer(Train& to, const Train& from) {
 	cout << "   TO:" << endl;
 	to.display();
 	cout << "---->" << endl;
-	if(!to.transfer(from)) {
+	if (!to.transfer(from)) {
 		cout << "Transfer Failed!" << endl << endl;
-	} else {
+	}
+	else {
 		cout << "Transfer Complete:" << endl;
 		to.display();
 		cout << endl;

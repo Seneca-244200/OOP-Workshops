@@ -1,3 +1,10 @@
+Script started on Mon 02 Oct 2023 08:24:34 PM EDT
+==229544== Memcheck, a memory error detector
+==229544== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==229544== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==229544== Command: ws.exe
+==229544== 
+
 +-------------------------+
 |                         |
 | Testing one, two, three |
@@ -8,6 +15,15 @@
 | Professor's Label Maker Program Tester |
 |                                        |
 \----------------------------------------/
+
+Enter the follwing information:
+# of Labels > 6
+1> Applied Problem Solving
+2> Computer Principles for Programmers
+3> Communicating Across Contexts (Enriched)
+4> Introduction to Programming Using C
+5> Introduction to UNIX/Linux and the Internet
+6> Computer Programming and Analysis, Co-op (Work-Integrated Learning option only)
 
 Number of labels to create: 6
 Enter 6 labels:
@@ -53,3 +69,13 @@ Enter label number 6
 | Computer Programming and Analysis, Co-op (Work-Integrated Learning opt |
 |                                                                        |
 +------------------------------------------------------------------------+
+==229544== 
+==229544== HEAP SUMMARY:
+==229544==     in use at exit: 0 bytes in 0 blocks
+==229544==   total heap usage: 10 allocs, 10 frees, 73,171 bytes allocated
+==229544== 
+==229544== All heap blocks were freed -- no leaks are possible
+==229544== 
+==229544== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 02 Oct 2023 08:25:12 PM EDT

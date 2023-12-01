@@ -1,0 +1,7 @@
+Throughout this workshop , I've gained a deeper understanding of fundamental programming concepts and their practical applications. Learning about classes, objects, and inheritance has been transformative, enabling me to create well-structured, reusable code. Constructors, destructors, and access specifiers have become essential tools in my coding arsenal.
+
+Data encapsulation and validation have reinforced the importance of maintaining data integrity within objects. Dynamic memory allocation, operator overloading, and working with the C++ Standard Library have expanded my programming horizons.
+
+Challenges such as compilation errors, memory management, and inheritance complexities have tested my problem-solving skills. Pointer errors, operator overloading mishaps, and input validation issues taught me valuable lessons in debugging and code robustness.
+
+In the end, this workshop has not only equipped me with a strong foundation in OOP but also encouraged me to approach software development with a structured and adaptable mindset.

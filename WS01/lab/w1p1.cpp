@@ -8,7 +8,7 @@
 //
 // Revision History
 // -----------------------------------------------------------
-// Name            Date            Reason
+// Cristhian Rosero            Sep-11-2023           
 ***********************************************************************/
 #define _CRT_SECURE_NO_WARNINGS
 #include <cstdio>
@@ -19,6 +19,7 @@ const int MAX_NO_OF_WORDS = 500;
 const int SORT_BY_OCCURANCE = 1;
 const int SORT_ALPHABETICALLY = 0;
 using namespace std;
+
 struct Word {
    char letters[MAX_WORD_LEN];
    int count;

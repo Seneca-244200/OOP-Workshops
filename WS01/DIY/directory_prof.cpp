@@ -8,7 +8,7 @@
 //
 // Revision History
 // -----------------------------------------------------------
-// Name            Date            Reason
+// Cristhian Rosero           Date            Reason
 ***********************************************************************/
 #include <iostream>
 #include "Phone.h"

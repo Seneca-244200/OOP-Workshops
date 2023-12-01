@@ -1,0 +1,36 @@
+Script started on Tue 03 Oct 2023 12:31:15 PM EDT
+==78387== Memcheck, a memory error detector
+==78387== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==78387== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==78387== Command: ws
+==78387== 
+Information was set correctly!
+Information was set incorrectly!
+                       ----- Car Inventory Information -----
+
+| Type       | Brand            | Model            | Year | Code |     Price |
++------------+------------------+------------------+------+------+-----------+
+| SUV        | Volvo            | XC90             | 2019 |  109 |  80000.00 |
+| Sedan      | BMW              | M550i            | 2022 |  101 |  91000.00 |
+| Truck      | Tesla            | Cybertruck       | 2021 |  102 |  65000.00 |
+| Sedan      | BMW              | M550i            | 2022 |  100 |  1.00     |
+
+******************************************************************************
+*  WARNING: There are invalid data in the inventory!                         *
+******************************************************************************
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++  WARNING: There are similar entries in the inventory!                      +
+| Sedan      | BMW              | M550i            | 2022 |  101 |  91000.00 |
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+==78387== 
+==78387== HEAP SUMMARY:
+==78387==     in use at exit: 0 bytes in 0 blocks
+==78387==   total heap usage: 22 allocs, 22 frees, 72,821 bytes allocated
+==78387== 
+==78387== All heap blocks were freed -- no leaks are possible
+==78387== 
+==78387== For lists of detected and suppressed errors, rerun with: -s
+==78387== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Tue 03 Oct 2023 12:31:16 PM EDT

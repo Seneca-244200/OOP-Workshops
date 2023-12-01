@@ -1,15 +1,3 @@
-/***********************************************************************
-// OOP244 Workshop #2 lab (part 1)
-//
-// File  File.cpp
-// Version 1.0
-// Author   Fardad Soleimanloo
-// Description
-//    To be completed by students
-// Revision History
-// -----------------------------------------------------------
-// Name            Date            Reason
-***********************************************************************/
 #define _CRT_SECURE_NO_WARNINGS
 #include <cstdio>
 #include "File.h"
@@ -32,15 +20,41 @@ namespace sdds {
    void closeFile() {
       if (fptr) fclose(fptr);
    }
-   /* TODO: read functions go here    
-   bool read(................) {
-      return .....
-   }
-   bool read(................) {
-      return .....
-   }
-   bool read(................) {
-      return .....
-   }
-   */
+   
+   //Read Functions
+   //Scan for employee name
+    bool read(char* empName) {
+    
+        bool ok = false;
+    
+        if (fscanf(fptr, "%[^\n]\n", empName) == 1) {
+            ok = true;
+        }
+            
+    return ok;
+    }
+
+    //Scan for employee number
+    bool read(int& empNumber) {
+
+        bool ok = false;
+
+        if (fscanf(fptr, "%d,", &empNumber) == 1) {
+            ok = true;
+        }
+
+        return ok;
+    }
+
+    //Scan for employee salary
+    bool read(double& empSalary) {
+
+        bool ok = false;
+
+        if (fscanf(fptr, "%lf,", &empSalary) == 1) {
+            ok = true;
+        }
+
+        return ok;
+    }
 }

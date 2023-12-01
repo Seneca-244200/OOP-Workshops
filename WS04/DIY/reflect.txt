@@ -1,0 +1,23 @@
+
+Workshop Reflection
+
+
+In completing this workshop, I gained valuable experience and knowledge in C++ programming, particularly in designing and implementing classes, managing dynamic memory, and handling various aspects of object-oriented programming. I'd like to highlight some key takeaways from each deliverable:
+
+Deliverable 1: Label Class
+
+In the first deliverable, I learned how to create a C++ class called Label. I grasped the concept of constructor overloading to handle different input scenarios effectively. Moreover, I mastered memory management using dynamic arrays for character data and safely freeing this memory in the destructor. The printLabel function was particularly challenging, as it required precise formatting to create visually appealing labels.
+
+Deliverable 2: LabelMaker Class
+
+In the second deliverable, I expanded on the Label class to create a LabelMaker class capable of managing multiple labels. This exercise reinforced my understanding of classes and introduced me to dynamic array management for an array of class objects. I also learned to handle user input and improve the organization of my code.
+
+Challenges and Insights
+
+During the workshop, I encountered challenges related to properly formatting labels, especially when the text length was uneven. This required careful calculation of padding and centering for the labels. The need to modify the top and bottom frames of the second label added complexity, but it was a valuable exercise in conditional logic.
+
+Overall, this workshop enhanced my C++ programming skills, particularly in dealing with dynamic memory allocation, object-oriented design, and user input handling. It reinforced the importance of careful planning and testing to create robust and visually appealing software. I look forward to applying these skills in future projects and continuing to deepen my understanding of C++ programming.
+
+Issues Encountered
+
+One challenge I faced was ensuring consistent formatting of labels, especially when the text length was uneven. I had to carefully calculate padding and centering for labels to make them visually appealing. Additionally, modifying the top and bottom frames of the second label to start with '/' and end with '\' was a bit tricky, but it helped me understand conditional logic better

@@ -1,0 +1,4 @@
+Phone.cpp: In function ‘void sdds::phoneDir(const char*, const char*)’:
+Phone.cpp:43:14: warning: variable ‘found’ set but not used [-Wunused-but-set-variable]
+         bool found = false;
+              ^

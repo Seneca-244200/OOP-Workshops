@@ -15,21 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cStrTools.cpp">
+    <ClCompile Include="directory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Phone.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="directory.cpp">
+    <ClCompile Include="cStrTools.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cStrTools.h">
+    <ClInclude Include="Phone.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Phone.h">
+    <ClInclude Include="cStrTools.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

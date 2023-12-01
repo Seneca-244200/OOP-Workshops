@@ -1,0 +1,28 @@
+
+Reflection #1:
+Cristhian Rosero 
+
+In completing this workshop, I gained valuable experience in C++ programming and learned several important concepts and techniques. 
+
+Topics Learned:
+
+C++ Programming: This workshop provided a practical introduction to C++ programming. 
+I learned about namespaces, functions, loops, conditional statements, and file handling using C++.
+
+Structures and Arrays: I became proficient in working with structures and arrays to organize and manage data effectively. The "Word" structure was used to store word occurrences, and arrays were used to manage word data.
+
+File Input/Output and handling : The workshop covered file handling, including opening, reading, and closing files using the FILE pointer and the fopen, fgetc, and fclose functions.
+
+String Manipulation: I practiced string manipulation techniques such as copying, comparing, and trimming strings using functions like strCmp, strCpy, and trim.
+
+Sorting Algorithms: I learned about sorting algorithms, including bubble sort, which was implemented in the sort function to sort words either by occurrence or alphabetically.
+
+Data Analysis: The program provided statistical analysis of word occurrences, including generating lists of words sorted by occurrence and alphabetically, as well as calculating the total number of words and the length of the longest word.
+
+Sorting Algorithm Implementation: Implementing sorting algorithms, especially the bubble sort used in this program, required careful attention to detail. Debugging sorting logic 
+was challenging but also rewarding.
+
+Memory Management: Although not explicitly mentioned in the code, it's crucial to understand memory management when working with C++ arrays and structures. This includes handling memory allocation and deallocation.
+
+Overall, completing this workshop was a rewarding experience, and I now have a better understanding of C++ programming fundamentals, data structures, and file handling.
+

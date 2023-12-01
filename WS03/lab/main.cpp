@@ -8,7 +8,7 @@
 //
 // Revision History
 // -----------------------------------------------------------
-// Name                 Date            Reason
+// Cristhian Rosero         09/25/2023          Reason
 ***********************************************************************/
 
 #include <iostream>
@@ -16,6 +16,7 @@
 #include <iomanip>
 using namespace std;
 #include "Train.h"
+
 using namespace sdds;
 
 int main() {
@@ -44,7 +45,7 @@ int main() {
 	}
 	cout << "----------------------------------------" << endl << endl;
 
-	//
+	
 	cout << "----------------------------------------" << endl;
 	cout << "2. Testing the display function." << endl;
 	cout << "----------------------------------------" << endl;

@@ -8,7 +8,7 @@
 //
 // Revision History
 // -----------------------------------------------------------
-// Name                 Date            Reason
+// Cristhian Rosero         10/07/2023            Reason
 ***********************************************************************/
 #include <iostream>
 #include "Label.h"

@@ -1,0 +1,4 @@
+Train.cpp: In member function ‘bool sdds::Train::validTime(int) const’:
+Train.cpp:28:13: warning: unused variable ‘hours’ [-Wunused-variable]
+         int hours = value / 100;
+             ^
