@@ -150,7 +150,7 @@ Skips a comma and then reads a cstring no longer than 60 characters from the fpt
 > Use the following format in the fscanf to accomplish this:<br/> `",%60[^\n]\n"`
 
 
-### `bool read(Assessment& asm, FILE* fptr);`
+### `bool read(Assessment& asmnt, FILE* fptr);`
 First, it will try to read a double value for the mark and a string for the title into a temporary local double variable and a 60-character lone cString (+1 for null).
 
 If the read is successful, it will then allocate a dynamic double and a dynamic cString to the exact size of the read cstring from the file into the fields of the asm structure (asm.m_mark and asm.m_title) and copies the values into them.<br />
