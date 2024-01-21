@@ -414,7 +414,6 @@ StMark.cpp
 ### Data Entry
 
 ```text
-grp.csv
 group3.csv
 x
 ```
