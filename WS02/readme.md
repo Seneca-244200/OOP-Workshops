@@ -304,14 +304,14 @@ void set(Room& room, int numberOfGuests, const char* roomNumber);
 // Prints the room number and names of the guests in the following lines with four 
 // spaces of indentaion 
 // See correct_output.txt for the exact format
-void print(const Guest& guest);
+void print(const Room& room);
 
 // Books a room by receiving the room number, number of guests and the guest information.
 // See correct_output.txt for the exact format
-void book(Guest& guest);
+void book(Room& room);
 
 // vacates the room by dallocating all the memory used.
-void vacate(Guest& guest);
+void vacate(Room& room);
 ```
 
 
