@@ -293,7 +293,7 @@ struct Room {
    char m_roomNumber[6];    
    int m_noOfGuests;
    Guest* m_guests;
-}
+};
 ```
 ##### V1.2   
 (Corrected the arguments from Guest to Room)
