@@ -1,0 +1,106 @@
+Script started on Wed 07 Feb 2024 04:32:11 PM EST
+==124807== Memcheck, a memory error detector
+==124807== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==124807== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==124807== Command: ws.exe
+==124807== 
+----------------------------------------
+1. Testing the display function and constructors.
+----------------------------------------
+Details of our heroes are as follow: 
+Name: Superman
+List of available powers: 
+  Name: Flying, Rarity: 2
+  Name: Laser Eye, Rarity: 8
+  Name: Freezing Breath, Rarity: 8
+  Name: Super Strength, Rarity: 2
+Power Level: 80
+Name: Flash
+List of available powers: 
+  Name: Super Speed, Rarity: 8
+  Name: Super Healing, Rarity: 5
+Power Level: 26
+Name: Martian-Man-Hunter
+List of available powers: 
+  Name: Flying, Rarity: 2
+  Name: Super Strength, Rarity: 2
+  Name: Telepathy, Rarity: 9
+Power Level: 39
+Name: Aquaman
+List of available powers: 
+  Name: Water Bending, Rarity: 9
+  Name: Super Strength, Rarity: 2
+  Name: Animal Telepathy, Rarity: 9
+Power Level: 60
+Name: Green-Lantern
+List of available powers: 
+  Name: Strong Will, Rarity: 10
+  Name: Flying, Rarity: 2
+Power Level: 24
+----------------------------------------
+
+----------------------------------------
+1. Testing the += operator
+----------------------------------------
+Name: Flash
+List of available powers: 
+  Name: Super Speed, Rarity: 8
+  Name: Super Healing, Rarity: 5
+  Name: Phasing through objects, Rarity: 10
+Power Level: 69
+Name: Martian-Man-Hunter
+List of available powers: 
+  Name: Flying, Rarity: 2
+  Name: Super Strength, Rarity: 2
+  Name: Telepathy, Rarity: 9
+  Name: Phasing through objects, Rarity: 10
+Power Level: 92
+----------------------------------------
+
+----------------------------------------
+3. Testing the -= operator
+----------------------------------------
+Name: Flash
+List of available powers: 
+  Name: Super Speed, Rarity: 8
+  Name: Super Healing, Rarity: 5
+  Name: Phasing through objects, Rarity: 10
+Power Level: 59
+----------------------------------------
+
+----------------------------------------
+4. Testing the >> and << operators
+----------------------------------------
+Name: Green-Lantern
+List of available powers: 
+  Name: Strong Will, Rarity: 10
+  Name: Flying, Rarity: 2
+  Name: Regeneration, Rarity: 5
+Power Level: 51
+Name: Superman
+List of available powers: 
+  Name: Flying, Rarity: 2
+  Name: Laser Eye, Rarity: 8
+  Name: Freezing Breath, Rarity: 8
+  Name: Super Strength, Rarity: 2
+  Name: Regeneration, Rarity: 5
+Power Level: 125
+----------------------------------------
+
+----------------------------------------
+5. Testing the < and > operators
+----------------------------------------
+Superman is stronger than Martian-Man-Hunter
+Green-Lantern is weaker than Aquaman
+----------------------------------------
+
+==124807== 
+==124807== HEAP SUMMARY:
+==124807==     in use at exit: 0 bytes in 0 blocks
+==124807==   total heap usage: 14 allocs, 14 frees, 75,168 bytes allocated
+==124807== 
+==124807== All heap blocks were freed -- no leaks are possible
+==124807== 
+==124807== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Wed 07 Feb 2024 04:32:12 PM EST

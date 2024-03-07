@@ -1,0 +1,96 @@
+Script started on Wed 07 Feb 2024 04:30:17 PM EST
+==124547== Memcheck, a memory error detector
+==124547== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==124547== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==124547== Command: ws.exe
+==124547== 
+** Testing Account Setup **
+Deposit $100.00 for Joe Williams
+Deposit $0.00 for Cindy Kofler
+Withdraw $5.00 for Raya Chandok
+Deposit $5.00 for Rohan Kumar
+** Testing Cast operators **
+** Testing Fund Transfers **
+Transfer $100.00 from Joe Williams to Cindy Kofler
+Deposit $100.00 for Cindy Kofler
+Withdraw $100.00 for Joe Williams
+Transfer $5.00 from Rohan Kumar to Raya Chandok
+Deposit $5.00 for Raya Chandok
+Withdraw $5.00 for Rohan Kumar
+Display Account -> User:----Joe Williams | Checking | Balance: $    0.00 | Transactions:002
+Display Account -> User:----Cindy Kofler |  Savings | Balance: $  100.00 | Transactions:002
+Display Account -> User:----Raya Chandok |  Savings | Balance: $    0.00 | Transactions:002
+Display Account -> User:-----Rohan Kumar | Checking | Balance: $    0.00 | Transactions:002
+Display Account -> User:------- NOT OPEN
+Withdraw $1.00 for Raya Chandok
+Withdraw $2.00 for Cindy Kofler
+Deposit $1.00 for Joe Williams
+Deposit $2.00 for Rohan Kumar
+Withdraw $2.00 for Raya Chandok
+Withdraw $4.00 for Cindy Kofler
+Deposit $2.00 for Joe Williams
+Deposit $4.00 for Rohan Kumar
+Withdraw $3.00 for Raya Chandok
+Withdraw $6.00 for Cindy Kofler
+Deposit $3.00 for Joe Williams
+Deposit $6.00 for Rohan Kumar
+Withdraw $4.00 for Raya Chandok
+Withdraw $8.00 for Cindy Kofler
+Deposit $4.00 for Joe Williams
+Deposit $8.00 for Rohan Kumar
+Withdraw $5.00 for Raya Chandok
+Withdraw $10.00 for Cindy Kofler
+Deposit $5.00 for Joe Williams
+Deposit $10.00 for Rohan Kumar
+Withdraw $6.00 for Raya Chandok
+Withdraw $12.00 for Cindy Kofler
+Deposit $6.00 for Joe Williams
+Deposit $12.00 for Rohan Kumar
+Withdraw $7.00 for Raya Chandok
+Withdraw $14.00 for Cindy Kofler
+Deposit $7.00 for Joe Williams
+Deposit $14.00 for Rohan Kumar
+Withdraw $8.00 for Raya Chandok
+Withdraw $16.00 for Cindy Kofler
+Deposit $8.00 for Joe Williams
+Deposit $16.00 for Rohan Kumar
+Withdraw $9.00 for Raya Chandok
+Withdraw $18.00 for Cindy Kofler
+Deposit $9.00 for Joe Williams
+Deposit $18.00 for Rohan Kumar
+Withdraw $10.00 for Raya Chandok
+Withdraw $20.00 for Cindy Kofler
+Deposit $10.00 for Joe Williams
+Deposit $20.00 for Rohan Kumar
+Display Account -> User:----Joe Williams | Checking | Balance: $   55.00 | Transactions:012
+Display Account -> User:----Cindy Kofler |  Savings | Balance: $  -10.00 | Transactions:012
+Display Account -> User:----Raya Chandok |  Savings | Balance: $  -55.00 | Transactions:012
+Display Account -> User:-----Rohan Kumar | Checking | Balance: $  110.00 | Transactions:012
+Display Account -> User:------- NOT OPEN
+** Testing Fees **
+Display Account -> User:----Joe Williams | Checking | Balance: $   40.00 | Transactions:012
+Display Account -> User:----Cindy Kofler |  Savings | Balance: $  -52.00 | Transactions:012
+Display Account -> User:----Raya Chandok |  Savings | Balance: $  -97.00 | Transactions:012
+Display Account -> User:-----Rohan Kumar | Checking | Balance: $   95.00 | Transactions:012
+Display Account -> User:------- NOT OPEN
+** Testing Interest **
+Display Account -> User:----Joe Williams | Checking | Balance: $   40.20 | Transactions:012
+Display Account -> User:----Cindy Kofler |  Savings | Balance: $  -52.00 | Transactions:012
+Display Account -> User:----Raya Chandok |  Savings | Balance: $  -97.00 | Transactions:012
+Display Account -> User:-----Rohan Kumar | Checking | Balance: $   95.47 | Transactions:012
+Display Account -> User:------- NOT OPEN
+** Testing Comparison operators **
+** Testing Equality operator **
+Deposit $5.00 for Lian Zhou
+Deposit $5.00 for Lian Zhou
+** All Tests Complete - Done **
+==124547== 
+==124547== HEAP SUMMARY:
+==124547==     in use at exit: 0 bytes in 0 blocks
+==124547==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==124547== 
+==124547== All heap blocks were freed -- no leaks are possible
+==124547== 
+==124547== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Wed 07 Feb 2024 04:30:18 PM EST

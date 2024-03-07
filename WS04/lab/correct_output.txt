@@ -1,0 +1,41 @@
+******************************
+Empty Fridge
+******************************
+******************************
+
+******************************
+Non Empty Fridge
+******************************
+Fridge Model: Ice Age
+Food count: 2 Capacity: 3
+List of Foods
+              Apples | 4
+                Milk | 5
+******************************
+
+******************************
+Filling Empty Fridge
+******************************
+Fridge Model: So Cold
+Food count: 1 Capacity: 3
+List of Foods
+            Brocolli | 10
+******************************
+
+******************************
+Full Fridge
+******************************
+Fridge Model: Ice Age
+Food count: 3 Capacity: 3
+List of Foods
+              Apples | 4
+                Milk | 5
+                Eggs | 3
+******************************
+
+******************************
+Find Food
+******************************
+Found Brocolli (correct)
+No Eggs here (correct)
+******************************

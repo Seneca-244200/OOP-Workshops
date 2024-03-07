@@ -1,0 +1,41 @@
+******************************
+Empty Guitar
+******************************
+***Empty Guitar***
+******************************
+
+******************************
+Non Empty Guitar
+******************************
+Guitar Model: Les Paul
+Strings: 2
+#1    Bronze | 0.7
+#2     Steel | 0.9
+******************************
+
+******************************
+Change Strings
+******************************
+Guitar Model: Les Paul
+Strings: 2
+#1     Nylon | 0.6
+#2     Steel | 0.9
+Unable to change string (correct)
+******************************
+
+******************************
+Destring and Restring
+******************************
+Guitar Model: Stratocaster
+Strings: 2
+#1    Bronze | 0.7
+#2     Steel | 0.9
+Guitar is correctly destrung
+******************************
+
+******************************
+Check Gauge
+******************************
+Gauges don't match (correct)
+Gauges match (correct)
+******************************

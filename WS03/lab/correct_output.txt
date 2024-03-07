@@ -1,0 +1,52 @@
+Script started on Fri 26 Jan 2024 01:42:13 PM EST
+==105046== Memcheck, a memory error detector
+==105046== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==105046== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==105046== Command: ws.exe
+==105046== 
+[0] +++++++++++++
+-----------------
+[1] +++++++++++++
+-----------------
+[2] +++++++++++++
+-----------------
+[3] +++++++++++++
+-----------------
+[4] +++++++++++++
+License Plate:                  ABC
+Model:                 Toyota Camry
+Service Name:     Engine oil change
+Service Cost:                 50.00
+-----------------
+[5] +++++++++++++
+-----------------
+Servide Report - ..........................................
+Missing information.......................incomplete Entry:
+                   Customer infomration is missing.
+Servide Report - ..........................................
+Missing information.......................incomplete Entry:
+                   Customer infomration is missing.
+Servide Report - ..........................................
+Missing information.......................incomplete Entry:
+                   Customer infomration is missing.
+Servide Report - ..........................................
+Missing information.......................incomplete Entry:
+                   Car information is missing.
+Servide Report - ..........................................
+Customer Details:
+Customer ID:                   1005
+First Name:              Jane Smith
+License Plate:                  ABC
+Model:                 Toyota Camry
+Service Name:     Engine oil change
+Service Cost:                 50.00
+==105046== 
+==105046== HEAP SUMMARY:
+==105046==     in use at exit: 0 bytes in 0 blocks
+==105046==   total heap usage: 5 allocs, 5 frees, 72,758 bytes allocated
+==105046== 
+==105046== All heap blocks were freed -- no leaks are possible
+==105046== 
+==105046== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Fri 26 Jan 2024 01:42:14 PM EST

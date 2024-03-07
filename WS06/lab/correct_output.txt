@@ -1,0 +1,73 @@
+
+Failed to open file: BadFile.csv
+
+emailFile_test1.csv
+===================
+jeremiah_morris85@office.mobi      Jeremiah Morris          Year = 2019
+jonathan_russell23@website.ae      Jonathan Russell         Year = 2001
+colton_lowe21@wiki.be              Colton Lowe              Year = 2017
+eleanor_jenkins46@site.info        Eleanor Jenkins          Year = 2008
+
+Emails saved to backupEmails.csv
+backupEmails.csv
+================
+jeremiah_morris85@office.mobi      Jeremiah Morris          Year = 2019
+jonathan_russell23@website.ae      Jonathan Russell         Year = 2001
+colton_lowe21@wiki.be              Colton Lowe              Year = 2017
+eleanor_jenkins46@site.info        Eleanor Jenkins          Year = 2008
+
+backupEmails.csv
+================
+jeremiah_morris85@office.mobi      Jeremiah Morris          Year = 2019
+jonathan_russell23@website.ae      Jonathan Russell         Year = 2001
+colton_lowe21@wiki.be              Colton Lowe              Year = 2017
+eleanor_jenkins46@site.info        Eleanor Jenkins          Year = 2008
+
+backupEmails.csv
+================
+jeremiah_morris85@office.mobi      Jeremiah Morris          Year = 2019
+jonathan_russell23@website.ae      Jonathan Russell         Year = 2001
+colton_lowe21@wiki.be              Colton Lowe              Year = 2017
+eleanor_jenkins46@site.info        Eleanor Jenkins          Year = 2008
+
+backupEmails.csv
+================
+jeremiah_morris85@office.mobi      Jeremiah Morris          Year = 2019
+jonathan_russell23@website.ae      Jonathan Russell         Year = 2001
+colton_lowe21@wiki.be              Colton Lowe              Year = 2017
+eleanor_jenkins46@site.info        Eleanor Jenkins          Year = 2008
+mia_peterson70@corporation.jobs    Mia Peterson             Year = 2010
+dylan_diaz90@agency.cn             Dylan Diaz               Year = 2022
+logan_thomas72@project.ca          Logan Thomas             Year = 2016
+sophia_martinez64@resource.uk      Sophia Martinez          Year = 2000
+alyssa_soto29@dev.es               Alyssa Soto              Year = 2005
+olivia_brown2@technology.aero      Olivia Brown             Year = 2009
+isabel_snyder39@webpage.biz        Isabel Snyder            Year = 2013
+isabel_thompson26@directory.au     Isabel Thompson          Year = 2001
+emma_jones19@system.sa             Emma Jones               Year = 2006
+
+copyEmailFile.csv
+=================
+jeremiah_morris85@office.mobi      Jeremiah Morris          Year = 2019
+jonathan_russell23@website.ae      Jonathan Russell         Year = 2001
+colton_lowe21@wiki.be              Colton Lowe              Year = 2017
+eleanor_jenkins46@site.info        Eleanor Jenkins          Year = 2008
+mia_peterson70@corporation.jobs    Mia Peterson             Year = 2010
+dylan_diaz90@agency.cn             Dylan Diaz               Year = 2022
+logan_thomas72@project.ca          Logan Thomas             Year = 2016
+sophia_martinez64@resource.uk      Sophia Martinez          Year = 2000
+alyssa_soto29@dev.es               Alyssa Soto              Year = 2005
+olivia_brown2@technology.aero      Olivia Brown             Year = 2009
+isabel_snyder39@webpage.biz        Isabel Snyder            Year = 2013
+isabel_thompson26@directory.au     Isabel Thompson          Year = 2001
+emma_jones19@system.sa             Emma Jones               Year = 2006
+mia_peterson70@corporation.jobs    Mia Peterson             Year = 2010
+dylan_diaz90@agency.cn             Dylan Diaz               Year = 2022
+logan_thomas72@project.ca          Logan Thomas             Year = 2016
+sophia_martinez64@resource.uk      Sophia Martinez          Year = 2000
+alyssa_soto29@dev.es               Alyssa Soto              Year = 2005
+olivia_brown2@technology.aero      Olivia Brown             Year = 2009
+isabel_snyder39@webpage.biz        Isabel Snyder            Year = 2013
+isabel_thompson26@directory.au     Isabel Thompson          Year = 2001
+emma_jones19@system.sa             Emma Jones               Year = 2006
+

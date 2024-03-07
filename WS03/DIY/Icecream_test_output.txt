@@ -1,0 +1,52 @@
+Select flavour:
+----------------
+1: Chocolate
+2: Strawberry
+3: Mango
+4: Tutti fruit
+5: Almond crunch
+----------------
+> 1
+Number of Scoops (max 3)
+> 2
+Vanilla wafer cone?
+(Y)es/(N)o > y
+Order details:                Price
+-----------------------------------
+Number of scoops, 2 total:    10.00
+Chocolate flavour:             2.00
+Vanilla Wafer:                 5.00
+Price:                        17.00
+Select flavour:
+----------------
+1: Chocolate
+2: Strawberry
+3: Mango
+4: Tutti fruit
+5: Almond crunch
+----------------
+> one
+Invalid entry, retry
+> 0
+Invlid value(1<=val<=5)
+> 6
+Invlid value(1<=val<=5)
+> 3
+Number of Scoops (max 3)
+> one
+Invalid entry, retry
+> 0
+Invlid value(1<=val<=3)
+> 3
+Vanilla wafer cone?
+(Y)es/(N)o > x
+Only Y or N are acceptable:
+> yes
+Only Y or N are acceptable:
+> n
+Order details:                Price
+-----------------------------------
+Number of scoops, 3 total:    15.00
+Mango flavour
+Vanilla Wafer:                 0.00
+Price:                        15.00

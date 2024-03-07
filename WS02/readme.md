@@ -1,5 +1,7 @@
 # Workshop #2: Overloading and Dynamic memory allocation
 * Version 1.0
+* [Version 1.1](#v11-correction)  (Changed the argument name asm to assess; asm is a C keyword and cannot be used as a variable name)
+* [Version 1.2](#v12) (Corrected typo in Room related functions in part 2)
 
 In this workshop, you will be able to modify the content of variables in other scopes, overload functions, allocate memory at run-time, and deallocate that memory when it is no longer required.
 
@@ -149,11 +151,12 @@ Skips a comma and then reads a cstring no longer than 60 characters from the fpt
 
 > Use the following format in the fscanf to accomplish this:<br/> `",%60[^\n]\n"`
 
-
-### `bool read(Assessment& asm, FILE* fptr);`
+##### V1.1 correction
+(Changed the argument name in the following read function form **asm** to **assess**; **asm** is a C keyword and cannot be used as an variable name)
+### `bool read(Assessment& assess, FILE* fptr);`
 First, it will try to read a double value for the mark and a string for the title into a temporary local double variable and a 60-character lone cString (+1 for null).
 
-If the read is successful, it will then allocate a dynamic double and a dynamic cString to the exact size of the read cstring from the file into the fields of the asm structure (asm.m_mark and asm.m_title) and copies the values into them.<br />
+If the read is successful, it will then allocate a dynamic double and a dynamic cString to the exact size of the read cstring from the file into the fields of the assess structure (assess.m_mark and assess.m_title) and copies the values into them.<br />
 In this case, the function will return true, otherwise, it will return false with no memory allocation.
 
 ### `void freeMem(Assessment*& aptr, int size);`
@@ -292,7 +295,9 @@ struct Room {
    Guest* m_guests;
 }
 ```
-#### Mandatory Guest related functions:
+##### V1.2   
+(Corrected the arguments from Guest to Room)
+#### Mandatory Room related functions:
 
 ```c++
 // sets the Room by allocating a dynamic array of guests and setting the room number 
@@ -302,14 +307,14 @@ void set(Room& room, int numberOfGuests, const char* roomNumber);
 // Prints the room number and names of the guests in the following lines with four 
 // spaces of indentaion 
 // See correct_output.txt for the exact format
-void print(const Guest& guest);
+void print(const Room& room);
 
 // Books a room by receiving the room number, number of guests and the guest information.
 // See correct_output.txt for the exact format
-void book(Guest& guest);
+void book(Room& room);
 
 // vacates the room by dallocating all the memory used.
-void vacate(Guest& guest);
+void vacate(Room& room);
 ```
 
 

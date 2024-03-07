@@ -1,0 +1,90 @@
+Script started on Fri 26 Jan 2024 01:48:21 PM EST
+==105994== Memcheck, a memory error detector
+==105994== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==105994== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==105994== Command: ws.exe
+==105994== 
+Seneca Icecream shop
+          @
+        (' .)
+       (*.`. )
+        \###/
+         \#/
+          V
+How many Icecreams?
+> 2
+Order number 1:
+Select flavour:
+----------------
+1: Chocolate
+2: Strawberry
+3: Mango
+4: Tutti fruit
+5: Almond crunch
+----------------
+> 1
+Number of Scoops (max 3)
+> 3
+Vanilla wafer cone?
+(Y)es/(N)o > y
+Order number 2:
+Select flavour:
+----------------
+1: Chocolate
+2: Strawberry
+3: Mango
+4: Tutti fruit
+5: Almond crunch
+----------------
+> one
+Invalid entry, retry
+> 0
+Invlid value(1<=val<=5)
+> 6
+Invlid value(1<=val<=5)
+> 3
+Number of Scoops (max 3)
+> one
+Invalid entry, retry
+> 0
+Invlid value(1<=val<=3)
+> 4
+Invlid value(1<=val<=3)
+> 2
+Vanilla wafer cone?
+(Y)es/(N)o > x
+Only Y or N are acceptable:
+> no
+Only Y or N are acceptable:
+> n
+
+********** Order Summary **********
+Order No: 1:
+Order details:                Price
+-----------------------------------
+Number of scoops, 3 total:    15.00
+Chocolate flavour:             3.00
+Vanilla Wafer:                 5.00
+Price:                        23.00
+
+Order No: 2:
+Order details:                Price
+-----------------------------------
+Number of scoops, 2 total:    10.00
+Mango flavour
+Vanilla Wafer:                 0.00
+Price:                        10.00
+-----------------------------------
+Price:                        33.00
+Tax:                           4.29
+Total Price ($):              37.29
+==105994== 
+==105994== HEAP SUMMARY:
+==105994==     in use at exit: 0 bytes in 0 blocks
+==105994==   total heap usage: 2 allocs, 2 frees, 72,720 bytes allocated
+==105994== 
+==105994== All heap blocks were freed -- no leaks are possible
+==105994== 
+==105994== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Fri 26 Jan 2024 01:49:20 PM EST
