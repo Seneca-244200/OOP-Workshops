@@ -99,7 +99,7 @@ If you have any additional custom code, (i.e. functions, classes etc) that you w
 
 # Part 1 - LAB (50%)
 
-Your task is to create a module called **Assessments** (`Assessments.cpp and Assessments.h`) to implement multiple overloaded read functions to read a series of subject names and their average mark received by students that are saved in a file. 
+Your task is to create a module called **Assessments** (`Assessment.cpp and Assessment.h`) to implement multiple overloaded read functions to read a series of subject names and their average mark received by students that are saved in a file. 
 
 The file is in the following format:
 - The first line is only an integer that is the number of upcoming records
@@ -293,7 +293,7 @@ struct Room {
    char m_roomNumber[6];    
    int m_noOfGuests;
    Guest* m_guests;
-}
+};
 ```
 ##### V1.2   
 (Corrected the arguments from Guest to Room)

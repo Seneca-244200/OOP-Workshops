@@ -115,7 +115,7 @@ A bank account can either be a Checking or Savings account.  Each `bankAccount` 
 
 1- A username, maximum of 16 characters in length and statically allocated as a `cstring`.
 2- The funds in the account are stored as a `double` 
-3- A `bool` to identify if this is a checking account 
+3- A `bool` to identify if this is a checking account.
 4- An `int` for the number of monthly transactions.  
 
 You are free to create additional private data members which may be helpful.
