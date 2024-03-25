@@ -39,17 +39,17 @@ Select flavour:
 > one
 Invalid entry, retry
 > 0
-Invlid value(1<=val<=5)
+Invalid value(1<=val<=5)
 > 6
-Invlid value(1<=val<=5)
+Invalid value(1<=val<=5)
 > 3
 Number of Scoops (max 3)
 > one
 Invalid entry, retry
 > 0
-Invlid value(1<=val<=3)
+Invalid value(1<=val<=3)
 > 4
-Invlid value(1<=val<=3)
+Invalid value(1<=val<=3)
 > 2
 Vanilla wafer cone?
 (Y)es/(N)o > x
