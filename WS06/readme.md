@@ -343,7 +343,7 @@ Empty list
 ```C++    
 ostream& operator<<(ostream& os, const Numbers& N);
 ```
-Overload the insertion operator to display the Numbers object using istream.
+Overload the insertion operator to display the Numbers object using ostream.
 - call the display function of N and return it
 
 ```C++
