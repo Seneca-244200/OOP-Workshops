@@ -326,7 +326,7 @@ should be displayed as follows:
 ```Text
 =========================
 numbers.txt
-3, 6, 12.2, 34.1, 34.56
+3.00, 6.00, 12.20, 34.10, 34.56
 -------------------------
 Total of 5 number(s)
 Largest number:  34.56
