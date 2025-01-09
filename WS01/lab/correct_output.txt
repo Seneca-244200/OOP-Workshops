@@ -1,0 +1,23 @@
+Welcome to 50 top movies of all times "genre" search.
+
+Enter the movie genre to start the search: com
+1- Life Is Beautiful [1997], PG, duration: 116 minutes, Rating: 8.6/10
+    (Comedy, Drama, Romance)
+2- The Intouchables [2011], 14A, duration: 112 minutes, Rating: 8.5/10
+    (Biography, Comedy, Drama)
+3- My Sassy Girl [2001], PG, duration: 137 minutes, Rating: 8/10
+    (Comedy, Drama, Romance)
+4- Back to the Future [1985], PG, duration: 116 minutes, Rating: 8.5/10
+    (Adventure, Comedy, Sci-Fi)
+5- Finding Nemo [2003], G, duration: 100 minutes, Rating: 8.1/10
+    (Animation, Adventure, Comedy)
+Do another search? (Y)es: y
+
+Enter the movie genre to start the search: fan
+1- It's a Wonderful Life [1946], G, duration: 130 minutes, Rating: 8.6/10
+    (Drama, Family, Fantasy)
+2- The Green Mile [1999], 14A, duration: 189 minutes, Rating: 8.6/10
+    (Crime, Drama, Fantasy)
+Do another search? (Y)es: n
+
+Goodbye!

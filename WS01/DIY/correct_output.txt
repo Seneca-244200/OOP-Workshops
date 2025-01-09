@@ -1,0 +1,26 @@
+Phone Directory Search
+35 records loaded!
+
+Enter partial contact name
+> luc
+No match found for: luc
+Do another search? (Y)es: y
+
+Enter partial contact name
+> luk
+1- Luke Skywalker (301) 555 630
+Do another search? (Y)es: y
+
+Enter partial contact name
+> l
+1- Padme Amidala (416) 555 1464
+2- Wedge Antilles (217) 555 6370
+3- Salacious B. Crumb (905) 555 4613
+4- Kylo Ren (301) 555 3302
+5- Lando Calrissian (217) 555 7110
+6- Darth Maul (905) 555 1479
+7- Luke Skywalker (301) 555 630
+8- Princess Leia (217) 555 8508
+9- Han Solo (647) 555 5144
+Do another search? (Y)es: n
+Goodbye!

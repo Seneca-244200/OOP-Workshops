@@ -1,3 +1,36 @@
+# ignore files with no extenion
+*
+!*.*
+!*/
+
+# XCode
+## User settings
+xcuserdata/
+
+## Xcode 8 and earlier
+*.xcscmblueprint
+*.xccheckout
+
+
+# Visual Studio
+*.sdf
+*.user
+*.suo
+*.opensdf
+*.db
+Debug/
+ipch/
+x64/
+.vs/
+
+#tempfiles
+~$_*.*
+
+#codelite
+.clang/
+.codelite/
+Debug/
+
 # Prerequisites
 *.d
 
