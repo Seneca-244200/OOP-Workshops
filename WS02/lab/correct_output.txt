@@ -1,0 +1,68 @@
+Testing getInt functions:
+
+Eneter the following:
+2
+6
+3
+Enter an integer:
+> 2
+Invalid value, [3<ENTRY<5]
+> 6
+Invalid value, [3<ENTRY<5]
+> 3
+You entered: 3
+
+Enter the following:
+abc
+4
+> abc
+Bad integer entry, please try again:
+> 4
+You entered: 4
+
+Enter the follwing:
+abc
+2
+6
+4
+Enter another integer:
+> abc
+Bad integer entry, please try again:
+> 2
+Only enter values between 3 and 5, inclusive:
+> 6
+Only enter values between 3 and 5, inclusive:
+> 3
+You entered: 3
+*********************************
+Enter the following:
+5
+1.1
+2.2
+3.3
+4.4
+5.5
+Enter the number of double values:
+> 5
+1> 1.1
+2> 2.2
+3> 3.3
+4> 4.4
+5> 5.5
+5.5
+4.4
+3.3
+2.2
+1.1
+*********************************
+Enter the following:
+John
+Doe
+4412345123456
+
+Name: John
+Last name: Doe
+Phone number: 4412345123456
+John Doe, +4412345123456
+ , +0
+*********************************
