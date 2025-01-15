@@ -1,5 +1,9 @@
 Welcome to 50 top movies of all times "genre" search.
 
+Enter the movie genre to start the search: abc
+No match found for: abc
+Do another search? (Y)es: y
+
 Enter the movie genre to start the search: com
 1- Life Is Beautiful [1997], PG, duration: 116 minutes, Rating: 8.6/10
     (Comedy, Drama, Romance)
