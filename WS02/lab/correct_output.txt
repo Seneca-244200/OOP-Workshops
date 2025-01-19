@@ -32,8 +32,8 @@ Bad integer entry, please try again:
 Only enter values between 3 and 5, inclusive:
 > 6
 Only enter values between 3 and 5, inclusive:
-> 3
-You entered: 3
+> 4
+You entered: 4
 *********************************
 Enter the following:
 5
