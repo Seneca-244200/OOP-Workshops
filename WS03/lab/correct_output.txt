@@ -1,0 +1,118 @@
+Valid credit card record:
+| Hubert Blaine                  | 4098 7654 2345 7896 | 100 | 12/24 |
++-----+--------------------------------+---------------------+-----+-------+
+Valid credit card with very long name:
+| Hubert Blaine Wolfeschlegelste | 4098 7654 2345 7896 | 123 |  1/32 |
++-----+--------------------------------+---------------------+-----+-------+
+Invalid credit card with short name:
+Invalid Credit Card Record
++-----+--------------------------------+---------------------+-----+-------+
+Invalid credit card record with bad month:
+Invalid Credit Card Record
++-----+--------------------------------+---------------------+-----+-------+
+Invalid credit card record with bad month:
+Invalid Credit Card Record
++-----+--------------------------------+---------------------+-----+-------+
+Invalid credit card record with bad year:
+Invalid Credit Card Record
++-----+--------------------------------+---------------------+-----+-------+
+Invalid credit card record with bad year:
+Invalid Credit Card Record
++-----+--------------------------------+---------------------+-----+-------+
+Invalid credit card record with bad cvv:
+Invalid Credit Card Record
++-----+--------------------------------+---------------------+-----+-------+
+Invalid credit card record with bad cvv:
+Invalid Credit Card Record
++-----+--------------------------------+---------------------+-----+-------+
+|     |                                |                     |     | Expiry|
+| Row | Card holder name               | Credit card number  | CVV | MM/YY |
++-----+--------------------------------+---------------------+-----+-------+
+| 1   | Abraham Simpson                | 4012 0304 5093 6880 | 543 | 11/27 |
+| 2   | Agnes Skinner                  | 4042 0463 9151 1300 | 336 |  2/24 |
+| 3   | Akira Kurosawa                 | 4072 4709 2063 0570 | 380 |  5/24 |
+| 4   | Alice Glick                    | 4045 3069 7101 6370 | 558 | 10/27 |
+| 5   | Allison Taylor                 | 4044 9880 6004 1360 | 634 | 10/24 |
+| 6   | Apu Nahasapeemapetilon         | 4062 8292 7668 2490 | 895 |  7/32 |
+| 7   | Artie Ziff                     | 4042 5561 0941 5380 | 483 | 12/24 |
+| 8   | Baby Gerald                    | 4042 0856 2992 2780 | 162 |  3/30 |
+| 9   | Barney Gumble                  | 4040 9829 5631 5120 | 799 |  9/26 |
+| 10  | Bart Simpson                   | 4076 4013 8517 0770 | 641 | 11/29 |
+| 11  | Bernice Hibbert                | 4041 8536 0518 7420 | 379 |  6/25 |
+| 12  | Brandine Spuckler              | 4008 9484 2517 5710 | 788 |  6/31 |
+| 13  | Bumblebee Man                  | 4093 2118 6115 7700 | 273 |  7/24 |
+| 14  | Carl Carlson                   | 4069 1381 4031 9260 | 935 |  1/29 |
+| 15  | Chazz Busby                    | 4004 4052 2425 1240 | 444 | 11/27 |
+| 16  | Cletus Spuckler                | 4045 2329 9910 2640 | 363 |  6/26 |
+| 17  | Comic Book Guy                 | 4007 3061 9272 9270 | 961 |  7/24 |
+| 18  | Dewey Largo                    | 4099 1396 2669 0960 | 955 | 11/32 |
+| 19  | Disco Stu                      | 4006 8268 3456 5050 | 241 |  3/24 |
+| 20  | Dolph Starbeam                 | 4018 3782 5225 6280 | 975 |  5/29 |
+| 21  | Drederick Tatum                | 4034 8603 9745 0550 | 820 |  7/24 |
+| 22  | Edna Krabappel                 | 4051 1122 1629 8740 | 922 |  3/24 |
+| 23  | Elizabeth Hoover               | 4029 7021 3249 4360 | 252 | 10/29 |
+| 24  | Gil Gunderson                  | 4063 8362 0058 9550 | 412 |  2/30 |
+| 25  | Gloria Jailbird                | 4091 5678 8277 1220 | 919 |  6/24 |
+| 26  | Groundskeeper Willie           | 4075 0820 0250 8710 | 143 |  3/28 |
+| 27  | Hans Moleman                   | 4004 9963 9969 6390 | 470 |  5/27 |
+| 28  | Helen Lovejoy                  | 4099 2117 6594 1340 | 959 |  7/24 |
+| 29  | Herman Hermann                 | 4051 4179 0302 9720 | 499 | 11/24 |
+| 30  | Homer Simpson                  | 4089 0511 8229 9500 | 815 |  6/30 |
+| 31  | Jacqueline Bouvier             | 4084 3766 4930 0010 | 707 |  4/27 |
+| 32  | Janey Powell                   | 4097 8322 0444 8380 | 595 |  4/28 |
+| 33  | Jasper Beardly                 | 4025 8087 2766 0100 | 150 |  4/28 |
+| 34  | Jessica Lovejoy                | 4076 0628 4206 6590 | 465 |  9/30 |
+| 35  | Jimbo Jones                    | 4035 3920 2314 4010 | 973 |  6/31 |
+| 36  | Johnny Tightlips               | 4058 1325 0122 4250 | 583 | 11/24 |
+| 37  | Judge Roy Snyder               | 4088 0531 4737 1690 | 634 |  3/24 |
+| 38  | Kearney Zzyzwicz               | 4043 0678 4543 8600 | 108 |  5/28 |
+| 39  | Kent Brockman                  | 4040 7016 2277 2900 | 402 |  9/32 |
+| 40  | Kirk Van Houten                | 4042 5969 9130 6260 | 183 |  5/24 |
+| 41  | Krusty The Clown               | 4071 7799 4052 1810 | 105 | 10/31 |
+| 42  | Kumiko Albertson               | 4015 2534 9118 9570 | 437 | 10/29 |
+| 43  | Lenny Leonard                  | 4007 2522 6965 0990 | 478 |  2/24 |
+| 44  | Lindsey Naegle                 | 4049 0768 1341 0570 | 397 | 11/24 |
+| 45  | Ling Bouvier                   | 4098 8136 1588 8300 | 182 |  8/31 |
+| 46  | Lionel Hutz                    | 4001 5289 3435 2310 | 323 |  7/25 |
+| 47  | Lisa Simpson                   | 4036 4106 5434 0270 | 145 |  6/27 |
+| 48  | Luann Van Houten               | 4047 0700 5409 5800 | 568 |  2/25 |
+| 49  | Luigi Risotto                  | 4088 5872 1729 2090 | 567 |  1/24 |
+| 50  | Lunchlady Doris                | 4055 2813 8901 0150 | 201 |  4/24 |
+| 51  | Maggie Simpson                 | 4064 0024 2510 8890 | 337 |  9/31 |
+| 52  | Manjula Nahasapeemapetilon     | 4009 5924 8223 9410 | 142 |  2/29 |
+| 53  | Marge Simpson                  | 4002 4454 5830 7380 | 555 |  9/27 |
+| 54  | Martin Prince                  | 4059 7702 1745 5840 | 788 |  3/27 |
+| 55  | Maude Flanders[D]              | 4034 6632 5706 6840 | 700 |  4/28 |
+| 56  | Mayor Joe Quimby               | 4083 1894 9999 2960 | 525 |  4/25 |
+| 57  | Milhouse Van Houten            | 4032 8474 3158 0090 | 119 | 12/27 |
+| 58  | Miss Springfield               | 4074 7481 1091 5720 | 599 | 10/24 |
+| 59  | Moe Szyslak                    | 4099 7353 9411 0140 | 797 | 10/30 |
+| 60  | Mona Simpson                   | 4093 2268 6828 0220 | 243 |  5/27 |
+| 61  | Ned Flanders                   | 4052 5988 7854 4440 | 448 |  6/24 |
+| 62  | Nelson Muntz                   | 4027 7426 4236 1430 | 365 |  5/24 |
+| 63  | Old Jewish Man                 | 4018 2928 0329 6190 | 428 |  7/29 |
+| 64  | Patty Bouvier                  | 4016 1411 5071 1400 | 319 | 10/24 |
+| 65  | Rabbi Hyman Krustofsky         | 4026 1668 9542 3890 | 909 |  9/31 |
+| 66  | Rainier Wolfcastle             | 4075 8477 9623 3210 | 768 |  8/24 |
+| 67  | Ralph Wiggum                   | 4068 3987 3135 0700 | 273 | 10/32 |
+| 68  | Rod Flanders                   | 4046 8093 3643 3120 | 466 |  7/24 |
+| 69  | Roger Meyers Jr.               | 4025 9688 9492 2520 | 869 |  2/24 |
+| 70  | Ruth Powers                    | 4044 5996 0696 0030 | 246 |  6/24 |
+| 71  | Sarah Wiggum                   | 4079 5360 5556 5390 | 264 |  8/24 |
+| 72  | Sea Captain                    | 4036 7551 9712 5620 | 422 |  5/24 |
+| 73  | Selma Bouvier                  | 4055 4352 1777 6770 | 321 |  5/26 |
+| 74  | Seymour Skinner                | 4003 9658 9816 7660 | 694 | 11/27 |
+| 75  | Shauna Chalmers                | 4084 9945 0723 7530 | 836 |  4/26 |
+| 76  | Sideshow Mel                   | 4083 2708 0096 4480 | 389 |  3/30 |
+| 77  | Snake Jailbird                 | 4036 1371 6724 8070 | 132 | 10/32 |
+| 78  | Squeaky-Voiced Teen            | 4052 4291 9612 0580 | 862 |  6/28 |
+| 79  | Surly Duff                     | 4050 4367 5792 2640 | 912 |  8/24 |
+| 80  | The Rich Texan                 | 4086 8890 4744 7940 | 328 |  5/25 |
+| 81  | Todd Flanders                  | 4088 2541 8250 3370 | 617 | 10/30 |
+| 82  | Troy McClure                   | 4016 3907 5769 0770 | 452 | 10/26 |
+| 83  | Uter Zorker                    | 4036 7255 4412 6900 | 253 | 10/27 |
+| 84  | Waylon Smithers                | 4091 6939 0931 0650 | 726 |  9/30 |
+| 85  | Wendell Borton                 | 4092 4524 5743 7810 | 213 |  7/32 |
+| 86  | Wise Guy                       | 4084 6255 1909 8910 | 581 |  8/28 |
+| 87  | Hubert Blaine Wolfeschlegelste | 4098 7654 2345 7896 | 123 |  5/25 |
++-----+--------------------------------+---------------------+-----+-------+
