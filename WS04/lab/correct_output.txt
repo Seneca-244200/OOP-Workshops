@@ -1,0 +1,99 @@
+ Six usable and four unusable Cans:
+ Capacity,  Dimensions            Volume     Content
+------------------------------    ---------  ---------------------------
+ 1549.8cc (20.0x10.0) Canister of     0.0cc   Olive Oil
+ 1000.0cc (13.0x10.0) Canister of     0.0cc   Orange Juice
+28085.6cc (40.0x30.0) Canister of     0.0cc   Sanetized and Empty
+ 1000.0cc (13.0x10.0) Canister of     0.0cc   Sanetized and Empty
+ 1000.0cc (13.0x10.0) Canister of     0.0cc   Sanetized and Empty
+ 1000.0cc (13.0x10.0) Canister of     0.0cc   Sanetized and Empty
+ 2743.6cc ( 9.0x20.0) Canister is  Unusable   recycle!
+ 1255.4cc (20.0x 9.0) Canister is  Unusable   recycle!
+12796.6cc (41.0x20.0) Canister is  Unusable   recycle!
+14893.8cc (20.0x31.0) Canister is  Unusable   recycle!
+------------------------------    ---------  ---------------------------
+
+ Cleared Cans:
+ Capacity,  Dimensions            Volume     Content
+------------------------------    ---------  ---------------------------
+ 1549.8cc (20.0x10.0) Canister of     0.0cc   Sanetized and Empty
+ 1000.0cc (13.0x10.0) Canister of     0.0cc   Sanetized and Empty
+28085.6cc (40.0x30.0) Canister of     0.0cc   Sanetized and Empty
+ 1000.0cc (13.0x10.0) Canister of     0.0cc   Sanetized and Empty
+ 1000.0cc (13.0x10.0) Canister of     0.0cc   Sanetized and Empty
+ 1000.0cc (13.0x10.0) Canister of     0.0cc   Sanetized and Empty
+ 2743.6cc ( 9.0x20.0) Canister is  Unusable   recycle!
+ 1255.4cc (20.0x 9.0) Canister is  Unusable   recycle!
+12796.6cc (41.0x20.0) Canister is  Unusable   recycle!
+14893.8cc (20.0x31.0) Canister is  Unusable   recycle!
+------------------------------    ---------  ---------------------------
+
+ Good Containers
+ Capacity,  Dimensions            Volume     Content
+------------------------------    ---------  ---------------------------
+ 1549.8cc (20.0x10.0) Canister of  1200.0cc   Milk
+ 1000.0cc (13.0x10.0) Canister of   100.0cc   Milk
+28085.6cc (40.0x30.0) Canister of 20000.0cc   Olive Oil
+ 1000.0cc (13.0x10.0) Canister of   500.0cc   Orange Juice
+ 1000.0cc (13.0x10.0) Canister of     0.0cc   Sanetized and Empty
+------------------------------    ---------  ---------------------------
+
+ Emptied Milk canister into another
+ Capacity,  Dimensions            Volume     Content
+------------------------------    ---------  ---------------------------
+ 1549.8cc (20.0x10.0) Canister of  1300.0cc   Milk
+ 1000.0cc (13.0x10.0) Canister of     0.0cc   Milk
+------------------------------    ---------  ---------------------------
+
+ Poured a canister of Orange Juice in an empty one
+ Capacity,  Dimensions            Volume     Content
+------------------------------    ---------  ---------------------------
+ 1000.0cc (13.0x10.0) Canister of     0.0cc   Orange Juice
+ 1000.0cc (13.0x10.0) Canister of   500.0cc   Orange Juice
+------------------------------    ---------  ---------------------------
+
+ Poured from Olive Oil canister to an emtpy Orange juice canister
+ Capacity,  Dimensions            Volume     Content
+------------------------------    ---------  ---------------------------
+28085.6cc (40.0x30.0) Canister of 19000.0cc   Olive Oil
+   -1.0cc (-1.0x-1.0) Canister is  Unusable   recycle!
+------------------------------    ---------  ---------------------------
+
+ Poured 5000ccs into the Olive Oil canister
+ Capacity,  Dimensions            Volume     Content
+------------------------------    ---------  ---------------------------
+28085.6cc (40.0x30.0) Canister of 24000.0cc   Olive Oil
+------------------------------    ---------  ---------------------------
+
+ Filled can of milk with olive oil
+ Capacity,  Dimensions            Volume     Content
+------------------------------    ---------  ---------------------------
+   -1.0cc (-1.0x-1.0) Canister is  Unusable   recycle!
+28085.6cc (40.0x30.0) Canister of 22999.9cc   Olive Oil
+------------------------------    ---------  ---------------------------
+
+ Poured too much into Orange Juice canister
+ Capacity,  Dimensions            Volume     Content
+------------------------------    ---------  ---------------------------
+   -1.0cc (-1.0x-1.0) Canister is  Unusable   recycle!
+------------------------------    ---------  ---------------------------
+
+ Filled the Apple Juice can with Olive Oil after cleaning
+ Capacity,  Dimensions            Volume     Content
+------------------------------    ---------  ---------------------------
+ 1000.0cc (13.0x10.0) Canister of  1000.0cc   Olive Oil
+------------------------------    ---------  ---------------------------
+
+ All Cans at the end
+ Capacity,  Dimensions            Volume     Content
+------------------------------    ---------  ---------------------------
+ 1549.8cc (20.0x10.0) Canister of  1300.0cc   Milk
+   -1.0cc (-1.0x-1.0) Canister is  Unusable   recycle!
+28085.6cc (40.0x30.0) Canister of 21999.9cc   Olive Oil
+   -1.0cc (-1.0x-1.0) Canister is  Unusable   recycle!
+   -1.0cc (-1.0x-1.0) Canister is  Unusable   recycle!
+ 1000.0cc (13.0x10.0) Canister of  1000.0cc   Olive Oil
+ 2743.6cc ( 9.0x20.0) Canister is  Unusable   recycle!
+ 1255.4cc (20.0x 9.0) Canister is  Unusable   recycle!
+12796.6cc (41.0x20.0) Canister is  Unusable   recycle!
+------------------------------    ---------  ---------------------------

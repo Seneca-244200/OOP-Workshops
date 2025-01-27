@@ -1,0 +1,64 @@
+EmptyOne1
+
+EmptyOne2
+
+/----------------------------------------\
+|                                        |
+| Professor's Label Maker Program Tester |
+|                                        |
+\----------------------------------------/
+
+Enter the follwing information:
+# of Labels > 6
+1> Applied Problem Solving
+2> Computer Principles for Programmers
+3> Communicating Across Contexts (Enriched)
+4> Introduction to Programming Using C
+5> Introduction to UNIX/Linux and the Internet
+6> Computer Programming and Analysis, Co-op (Work-Integrated Learning option only)
+
+Number of labels to create: 6
+Enter 6 labels:
+Enter label number 1
+> Applied Problem Solving
+Enter label number 2
+> Computer Principles for Programmers
+Enter label number 3
+> Communicating Across Contexts (Enriched)
+Enter label number 4
+> Introduction to Programming Using C
+Enter label number 5
+> Introduction to UNIX/Linux and the Internet
+Enter label number 6
+> Computer Programming and Analysis, Co-op (Work-Integrated Learning option only)
++-------------------------+
+|                         |
+| Applied Problem Solving |
+|                         |
++-------------------------+
++-------------------------------------+
+|                                     |
+| Computer Principles for Programmers |
+|                                     |
++-------------------------------------+
++------------------------------------------+
+|                                          |
+| Communicating Across Contexts (Enriched) |
+|                                          |
++------------------------------------------+
++-------------------------------------+
+|                                     |
+| Introduction to Programming Using C |
+|                                     |
++-------------------------------------+
++---------------------------------------------+
+|                                             |
+| Introduction to UNIX/Linux and the Internet |
+|                                             |
++---------------------------------------------+
++------------------------------------------------------------------------+
+|                                                                        |
+| Computer Programming and Analysis, Co-op (Work-Integrated Learning opt |
+|                                                                        |
++------------------------------------------------------------------------+
+
