@@ -1,9 +1,5 @@
 # Workshop #7: Derived Classes & Custom I/O Operators
 
-- **Version 1.1 Update:** The console entry test prompt and data entry have been corrected.  
-
-    *If you have already submitted the workshop as it was, there is no need to resubmit. This change does not affect any part of the workshop development.*
-
 In this workshop, you will work with classes organized in a hierarchical structure, focusing on creating derived classes and implementing custom input/output operators.
 
 ## Learning Outcomes
