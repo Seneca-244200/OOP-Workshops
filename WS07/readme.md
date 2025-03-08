@@ -1,5 +1,6 @@
 # Workshop #7: Derived Classes & Custom I/O Operators
 
+
 In this workshop, you will work with classes organized in a hierarchical structure, focusing on creating derived classes and implementing custom input/output operators.
 
 ## Learning Outcomes
