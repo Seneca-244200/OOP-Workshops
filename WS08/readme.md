@@ -1,4 +1,6 @@
 ### Workshop #8: Virtual Functions and Abstract Base Classes
+> V1.1: changed (in characters) to  (number of characters) to clarify.
+
 
 In this workshop, you will create a hierarchy of classes to practice and understand the role of virtual functions in inheritance.  
 The workshop consists of 4 classes:
@@ -230,7 +232,7 @@ Override the `Shape::getSpecs` pure virtual function to read a comma-delimited C
 The `Line` class inherits from `LblShape` to create a horizontal line with a label.
 
 ### Private Member Variable
-- **m_length**: A member variable to hold the length of the line in characters.
+- **m_length**: A member variable to hold the length of the line (number of characters).
 
 ### Public Members
 
@@ -276,8 +278,8 @@ This section provides detailed instructions for implementing the `Rectangle` cla
 The `Rectangle` class inherits from `LblShape` to create a rectangular frame with a label inside.
 
 ### Private Member Variables
-- **m_width**: Holds the width of the rectangular frame (in characters).
-- **m_height**: Holds the height of the rectangular frame (in characters).
+- **m_width**: Holds the width of the rectangular frame  (number of characters);
+- **m_height**: Holds the height of the rectangular frame  (number of characters).
 
 ### Public Members
 
