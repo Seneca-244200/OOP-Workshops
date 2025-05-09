@@ -1,5 +1,5 @@
 # Workshop #0 (ZERO): Computer and GitHub Account Preparation for Coding and Collaboration
-### Version 0.8.  The submission is not open yet.
+
 
 ---
 
