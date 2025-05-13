@@ -1,5 +1,6 @@
 # Workshop #0 (ZERO): Computer and GitHub Account Preparation for Coding and Collaboration
-
+### Version 1.0.  The submission is open
+### Version 1.1.  [Added important file management commands using Git](#important-git-commands)
 
 ---
 
@@ -22,6 +23,7 @@ Upon successful completion of this workshop, you will:
 * Push the program upstream to GitHub
 * Pull the program down to Matrix
 * Submit your program using the submitter program on Matrix
+* Learn how to add, delete, rename/move the files tracked by git
 
 ## Submission Policy and Instructions
 
@@ -265,9 +267,11 @@ Your student number goes here
 Email:
 Your Email goes here
 ```
+  
+  
 
 
-### Go to Pulling the workshop on matrix 
+### Go to [Pulling the workshop on matrix ](#pull-the-workshop-to-matrix-and-test-your-work-for-submission)
 
 
 
@@ -538,10 +542,115 @@ Example:
 ```bash
 ~profname.proflastname/submit <ENTER>
 ```
+---
 
 
+# Important Git Commands
+
+When working in a Git code repository, file management (i.e., adding, deleting, renaming, or moving files) should **not** be done using regular operating system commands alone. Since Git is tracking your files, changes should be done using Git commands to ensure proper version control.
+
+---
+
+## Command-Line File Management with Git
+
+### ➕🗑️✏️ File operations (add, delete, rename/move) for files tracked by Git
+
+---
+
+#### ➕ **Add a file**
+
+Whenever a new file is added to a repository folder, it must be staged using `git add` if you want Git to track it.
+
+```bash
+git add <file>
+```
+
+* Stages the file for commit.
+* Example:
+
+  ```bash
+  git add new_code.cpp
+  ```
+
+---
+
+#### 🗑️ **Delete a file**
+
+```bash
+git rm <file>
+```
+
+* Removes the file from the working directory and stages the deletion.
+* Example:
+
+  ```bash
+  git rm old_code.cpp
+  ```
+
+---
+
+#### ✏️ **Rename a file**
+
+```bash
+git mv <oldname> <newname>
+```
+
+* Renames the file and stages the change.
+* While Git may detect a rename if you use `mv` and commit, `git mv` is the preferred approach.
+* Example:
+
+  ```bash
+  git mv utils.cpp helpers.cpp
+  ```
+
+---
+
+#### 📂 **Move a file**
+
+```bash
+git mv <source> <destination>
+```
+
+* Moves the file to a new directory and stages the move.
+* Example:
+
+  ```bash
+  git mv main.cpp src/main.cpp
+  ```
+
+---
+
+#### ✅ **Commit the changes**
+
+After staging any file changes (add, delete, move, rename), you must commit them:
+
+```bash
+git commit -m "Moved/renamed/deleted file(s)"
+```
+
+### TortoiseGit (Windows only)
+
+You can perform all the above command-line operations using **TortoiseGit** by simply right-clicking on a file and selecting the appropriate menu option.
+
+> **Note:** On Windows 11, you may need to click on **"Show more options"** to access the TortoiseGit menu.
+
+#### Add
+
+![TortoiseGit Add](images/tgitadd.png)
+
+#### Rename and Delete
+
+![Rename and Delete](images/tgitrendel.png)
+
+#### Commit
+
+![Commit](images/tgitcommit.png)
+
+---
+ 
 ## Recommended Reading: Get Started with Git
 
 Reading the first two chapters of the *[Git book](https://git-scm.com/book/en/v2)* is highly recommended as they offer a clear and practical introduction to what Git is, why it’s useful, and how to start using it effectively. The first chapter explains the basic concepts of version control and how Git differs from other systems, helping you understand the reasons behind its design and popularity. The second chapter guides you through essential commands and workflows, giving you hands-on experience with creating repositories, making commits, and working with branches. By covering both the "why" and the "how," these chapters provide a strong foundation that will make using Git much easier and more efficient, whether you're managing personal projects or collaborating in a team.
 
 [Read the Git book](https://git-scm.com/book/en/v2)
+
