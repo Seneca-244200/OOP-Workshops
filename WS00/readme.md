@@ -125,7 +125,7 @@ On Windows, you can create an EdDSA SSH key using PuTTYgen, a simple tool includ
 [ Tutorial Video](https://youtu.be/Hi04H6poacE)
 
 ### Creating SSH key on Matrix
-To connect to GitHub from Matrix without typing your username and password every time, you’ll need to add your SSH public key to Matrix. This lets Matrix recognise and trust your computer when you use Git commands like clone, pull, and push. Once the key is installed, working with GitHub from the Matrix Linux environment becomes faster, easier, and more secure.
+To connect to GitHub from Matrix without typing your username and password every time, you’ll need to add your SSH public key to Matrix. This lets GitHub recognise and trust your account on Matrix when you use Git commands like clone, pull, and push. Once the key is installed, working with GitHub from the Matrix Linux environment becomes faster, easier, and more secure.
 
 [ Tutorial Video](https://youtu.be/V3K_sVA2Ufk)
 
@@ -329,7 +329,7 @@ To prepare your Mac for development, you’ll need to install Xcode, Apple’s o
 To connect to GitHub securely, you’ll need to create an SSH key. An SSH key is like a digital ID that confirms it’s really you when your computer connects to GitHub. It has two parts: a public key, which you upload to GitHub, and a private key, which stays safe on your computer. Once set up, you can push, pull, and clone without typing your username and password every time. This not only saves time but also keeps your connection secure.
 
 ### Creating SSH key on Matrix
-To connect to GitHub from Matrix without typing your username and password every time, you’ll need to add your SSH public key to Matrix. This lets Matrix recognise and trust your computer when you use Git commands like clone, pull, and push. Once the key is installed, working with GitHub from the Matrix Linux environment becomes faster, easier, and more secure.
+To connect to GitHub from Matrix without typing your username and password every time, you’ll need to add your SSH public key to Matrix. This lets GitHub recognise and trust your account on Matrix when you use Git commands like clone, pull, and push. Once the key is installed, working with GitHub from the Matrix Linux environment becomes faster, easier, and more secure.
 
 > Note: First connect to Seneca using the Global Protect VPN 
 
