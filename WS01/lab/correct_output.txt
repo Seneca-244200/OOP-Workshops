@@ -1,0 +1,172 @@
+---------------------------
+1- Display records
+2- Sorted by last name
+3- Sorted by first name
+4- revert to original order
+5- Search
+---------------------------
+0- Exit
+Select an option
+> 1
+1: Ralph Wiggum (555) 444-5555
+2: Homer Simpson (555) 123-4567
+3: Ned Flanders (555) 678-9012
+4: Montgomery Burns (555) 789-1234
+5: Waylon Smithers (555) 890-1234
+6: Moe Szyslak (555) 901-2345
+7: Marge Simpson (555) 234-5678
+8: Barney Gumble (555) 612-3456
+9: Bart Simpson (555) 345-6789
+10: Lenny Leonard (555) 111-2222
+11: Carl Carlson (555) 222-3333
+12: Milhouse Van-Houten (555) 333-4444
+13: Chief Wiggum (555) 555-6666
+14: Lisa Simpson (555) 456-7891
+15: Seymour Skinner (555) 666-7777
+16: Edna Krabappel (555) 777-8888
+17: Apu Nahasapeemapetilon (555) 888-9999
+18: Maggie Simpson (555) 567-8901
+19: Patty Bouvier (555) 999-1234
+20: Selma Bouvier (555) 123-1111
+
+---------------------------
+1- Display records
+2- Sorted by last name
+3- Sorted by first name
+4- revert to original order
+5- Search
+---------------------------
+0- Exit
+Select an option
+> 2
+Sorted By LAST NAME
+1: Patty Bouvier (555) 999-1234
+2: Selma Bouvier (555) 123-1111
+3: Montgomery Burns (555) 789-1234
+4: Carl Carlson (555) 222-3333
+5: Ned Flanders (555) 678-9012
+6: Barney Gumble (555) 612-3456
+7: Edna Krabappel (555) 777-8888
+8: Lenny Leonard (555) 111-2222
+9: Apu Nahasapeemapetilon (555) 888-9999
+10: Bart Simpson (555) 345-6789
+11: Marge Simpson (555) 234-5678
+12: Maggie Simpson (555) 567-8901
+13: Homer Simpson (555) 123-4567
+14: Lisa Simpson (555) 456-7891
+15: Seymour Skinner (555) 666-7777
+16: Waylon Smithers (555) 890-1234
+17: Moe Szyslak (555) 901-2345
+18: Milhouse Van-Houten (555) 333-4444
+19: Chief Wiggum (555) 555-6666
+20: Ralph Wiggum (555) 444-5555
+
+---------------------------
+1- Display records
+2- Sorted by last name
+3- Sorted by first name
+4- revert to original order
+5- Search
+---------------------------
+0- Exit
+Select an option
+> 4
+REVERTED to original
+1: Ralph Wiggum (555) 444-5555
+2: Homer Simpson (555) 123-4567
+3: Ned Flanders (555) 678-9012
+4: Montgomery Burns (555) 789-1234
+5: Waylon Smithers (555) 890-1234
+6: Moe Szyslak (555) 901-2345
+7: Marge Simpson (555) 234-5678
+8: Barney Gumble (555) 612-3456
+9: Bart Simpson (555) 345-6789
+10: Lenny Leonard (555) 111-2222
+11: Carl Carlson (555) 222-3333
+12: Milhouse Van-Houten (555) 333-4444
+13: Chief Wiggum (555) 555-6666
+14: Lisa Simpson (555) 456-7891
+15: Seymour Skinner (555) 666-7777
+16: Edna Krabappel (555) 777-8888
+17: Apu Nahasapeemapetilon (555) 888-9999
+18: Maggie Simpson (555) 567-8901
+19: Patty Bouvier (555) 999-1234
+20: Selma Bouvier (555) 123-1111
+
+---------------------------
+1- Display records
+2- Sorted by last name
+3- Sorted by first name
+4- revert to original order
+5- Search
+---------------------------
+0- Exit
+Select an option
+> 3
+Sorted By FIRST NAME
+1: Apu Nahasapeemapetilon (555) 888-9999
+2: Barney Gumble (555) 612-3456
+3: Bart Simpson (555) 345-6789
+4: Carl Carlson (555) 222-3333
+5: Chief Wiggum (555) 555-6666
+6: Edna Krabappel (555) 777-8888
+7: Homer Simpson (555) 123-4567
+8: Lenny Leonard (555) 111-2222
+9: Lisa Simpson (555) 456-7891
+10: Maggie Simpson (555) 567-8901
+11: Marge Simpson (555) 234-5678
+12: Milhouse Van-Houten (555) 333-4444
+13: Moe Szyslak (555) 901-2345
+14: Montgomery Burns (555) 789-1234
+15: Ned Flanders (555) 678-9012
+16: Patty Bouvier (555) 999-1234
+17: Ralph Wiggum (555) 444-5555
+18: Selma Bouvier (555) 123-1111
+19: Seymour Skinner (555) 666-7777
+20: Waylon Smithers (555) 890-1234
+
+---------------------------
+1- Display records
+2- Sorted by last name
+3- Sorted by first name
+4- revert to original order
+5- Search
+---------------------------
+0- Exit
+Select an option
+> 5
+Name
+> Sim
+1: Bart Simpson (555) 345-6789
+2: Homer Simpson (555) 123-4567
+3: Lisa Simpson (555) 456-7891
+4: Maggie Simpson (555) 567-8901
+5: Marge Simpson (555) 234-5678
+
+---------------------------
+1- Display records
+2- Sorted by last name
+3- Sorted by first name
+4- revert to original order
+5- Search
+---------------------------
+0- Exit
+Select an option
+> 5
+Name
+> Bar
+1: Barney Gumble (555) 612-3456
+2: Bart Simpson (555) 345-6789
+
+---------------------------
+1- Display records
+2- Sorted by last name
+3- Sorted by first name
+4- revert to original order
+5- Search
+---------------------------
+0- Exit
+Select an option
+> 0
+
+Goodbye!
