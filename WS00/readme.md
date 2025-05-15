@@ -220,9 +220,9 @@ Because on the command line we need to run three separate commands to do what To
 
 Now you can change directory into an already cloned repository and simply type:
 
-    ```bash
-    pushall "your commit message"
-    ```
+```bash
+pushall "your commit message"
+```
 
 
 ### Clone, push, and pull on Matrix
@@ -456,9 +456,9 @@ Because on the command line we need to run three separate commands to do what To
 
 Now you can change directory into an already cloned repository and simply type the following to add, commit and push your files to GitHub.
 
-    ```bash
-    pushall "your commit message"
-    ```
+```bash
+pushall "your commit message"
+```
 
 
 ## Creating a Console Application Using Xcode for Workshop zero
