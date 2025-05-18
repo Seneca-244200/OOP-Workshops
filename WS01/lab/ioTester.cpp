@@ -38,10 +38,9 @@ using namespace std;
 
 //Uncomment each function separately to test
 //void testReadFile() {
-//   cout << "Testing: void print(const PhoneRec&, size_t&, const char* = nullptr)" << endl;
+//   cout << "Testing: bool read(PhoneRec& pr, std::FILE* fptr)" << endl;
 //   std::FILE* file = fopen("phones.tsv", "r");
 //   PhoneRec pr{};
-//   size_t row = 1;
 //   if (file) {
 //      while (read(pr, file)) {
 //         cout << pr.m_name << ", " << pr.m_lastName << ", " << pr.m_phoneNumber << endl;
