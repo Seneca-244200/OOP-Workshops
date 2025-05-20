@@ -1,5 +1,5 @@
 # Workshop #1: Types, References, Function Overloading
-* Version 0.9
+* Version 1.0 (Added Sort logic URL to the sort function)
 
 In this workshop, you will organize already implemented code into a module and then create a new module by implementing several overloaded functions.
 
@@ -669,6 +669,8 @@ Sorts an array of `PhoneRec` pointers either by first name or last name.
 This function rearranges the pointers in the array without modifying the original `PhoneRec` data.
 
 * Returns `void`
+
+> Pick a logic from your IPC notes to implement this: [IPC144 Sorting](https://intro2c.sdds.ca/F-Refinements/algorithms#sorting)
 
 
 ## Testing Your Program
