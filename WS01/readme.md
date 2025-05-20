@@ -670,7 +670,19 @@ This function rearranges the pointers in the array without modifying the origina
 
 * Returns `void`
 
-> Pick a logic from your IPC notes to implement this: [IPC144 Sorting](https://intro2c.sdds.ca/F-Refinements/algorithms#sorting)
+To assist in implementing the main sort logic use the following psuedo code:
+
+```C++
+loop the array of pointers from the start till size of array - 1
+    loop the array of pointers from current index (eg. index i) of the outter loop + 1 till size of array
+        if the bool flag is true
+            compare the PhoneRec* at the current index of the outter loop to the one at the current index of the inner loop (eg index i vs index j)
+            if the last name of the former PhoneRec* as compared to the latter is not in ascending order then swap these two elements in the array
+        else 
+            perform the same logic as the above block but compare the first name instead
+```
+
+> Refer to your IPC notes for tips on sorting in general: [IPC144 Sorting](https://intro2c.sdds.ca/F-Refinements/algorithms#sorting)
 
 
 ## Testing Your Program
