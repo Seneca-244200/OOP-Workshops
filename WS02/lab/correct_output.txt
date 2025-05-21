@@ -1,0 +1,8 @@
+--- Sensor Analysis Report ---
+Title: Sensor Readings - Hourly Motor Temperatures (C)
+Number of Readings: 4989
+Average Temperature: 100.293 C
+Spikes Detected: 2
+Maximum Drop Between Readings: 137 C
+Readings in Optimal Range (90-110C): 1320 (26.4582%)
+--------------------------------
