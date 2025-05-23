@@ -1,5 +1,5 @@
 # Workshop #2: Dynamic Memory Allocation (DMA)
-* Version 0.6 (submissions are not open yet)
+* Version 0.9 (being reviewed)
 
 
 > ⚠️ **Before You Begin**
@@ -116,7 +116,7 @@ Implement the following four functions in `dma.cpp`:
 void testCreateSamples() {
     std::cout << "Test: CreateSamples()... ";
 
-    const char* title = "Test Data Set";
+    const char title[] = "Test Data Set";
     Samples* s = CreateSamples(title);
 
     bool ok = s && s->m_title && strcmp(s->m_title, title) == 0
@@ -124,7 +124,8 @@ void testCreateSamples() {
 
     std::cout << (ok ? "PASS" : "FAIL") << std::endl;
 
-    freemem(s);
+    delete[] s->m_title;
+    delete s;
 }
 ```
 
