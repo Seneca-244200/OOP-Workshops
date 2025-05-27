@@ -13,11 +13,12 @@ In this workshop, you will implement member functions, constructors, destructor 
 
 Upon successful completion of this workshop, you will have demonstrated the abilities to:
 
-- to define a class type
-- to privatize data within the class type
-- to instantiate an object of class type
-- to use member functions to query the state of an object
-- to use member functions to change the state of an object
+- define a class type
+- privatize data and methods within the class type
+- instantiate an object of class type
+- use member functions to query the state of an object
+- use member functions to change the state of an object
+- use constructors and destructor to manage the resources of the class
 - describe to your instructor what you have learned in completing this workshop
 
 # Part 1 - LAB (100%)
