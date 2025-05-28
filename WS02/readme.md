@@ -205,7 +205,7 @@ void testFreemem() {
     std::cout << (ok ? "PASS" : "FAIL") << std::endl;
 }
 ```
-To ensure that your implementation of the DMA module is memory-safe and correctly manages dynamic memory, you must [run all the unit tests using Valgrind](#compiling-and-testing-your-program) 
+To ensure that your implementation of the DMA module is memory-safe and correctly manages dynamic memory, you must [run all the unit tests using Valgrind](../README.md#compiling-and-testing-your-program) 
     
 These tests check for:
 
