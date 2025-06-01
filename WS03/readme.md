@@ -45,7 +45,7 @@ This class must keep the following information:
 
 ##### Dynamic Memory Allocation and Copying
 
-Create a private method that receives one argument:
+Create a private method called **aloCopy** that receives one argument:
 - a constant C-string for the cardholder's name.
 
     Dynamically allocate a C-string, pointed to by the character pointer attribute of the class, and copy the name into it.
