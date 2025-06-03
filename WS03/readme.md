@@ -45,7 +45,7 @@ This class must keep the following information:
 
 ##### Dynamic Memory Allocation and Copying
 
-Create a private method that receives one argument:
+Create a private method called **aloCopy** that receives one argument:
 - a constant C-string for the cardholder's name.
 
     Dynamically allocate a C-string, pointed to by the character pointer attribute of the class, and copy the name into it.
@@ -174,13 +174,15 @@ Initializes the object to a safe empty state.
 
 #### Five-Argument Constructor
 
+The five arguments align to the [five data members](#private-attributes) of the CC class. The arguments representing the expiry month and year will default to 12 and 26 respectively.
+
 First, it sets the object to a safe empty state. Then, if all the arguments are valid using the `validate()` function, it dynamically stores a copy of the name in the name attribute (using the `aloCopy` function) and sets the rest of the attributes to their corresponding values.
 
 If validation fails, nothing will be set.
 
-### destructor
-deallocates the memory. 
+### Destructor
 
+Deallocates any dynamic resources belonging to the class. 
 
 ## The tester program.
 [main.cpp](./lab/main.cpp)
