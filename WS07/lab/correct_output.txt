@@ -1,0 +1,27 @@
+Workshop 7 tester Version 1.1.
+Corrected the order of data in console entery test
+==================================================
+| Name            | Emp No | $alary | Teaching Subject     | Sec # | $Dev Pay |
+| Edna Krabappel  | 011222 |  76543 | OOP345 - Object-Orie |     3 |  2296.29 |
+Enter the following:
+John Doe, 12312, 65432,IPC144 - Introduction to Programming Using C,3<ENTER>
+> John Doe, 12312, 65432,IPC144 - Introduction to Programming Using C,3
+You enterd:
+| Name            | Emp No | $alary | Teaching Subject     | Sec # | $Dev Pay |
+| John Doe        | 012312 |  65432 | IPC144 - Introductio |     3 |  1962.96 |
+List of professors in file!
+| Name            | Emp No | $alary | Teaching Subject     | Sec # | $Dev Pay |
+| Abraham Simpson | 052967 |  80084 | OOP244-Introduction  |     2 |  1601.69 |
+| Agnes Skinner   | 073771 |  32943 | IPC144 - Introductio |     3 |   988.29 |
+| Akira Kurosawa  | 076089 |  55772 | OOP244-Introduction  |     2 |  1115.44 |
+| Alice Click     | 023803 |  15311 | IPC144 - Introductio |     3 |   459.32 |
+| Allison Taylor  | 046877 |  93972 | OOP244-Introduction  |     2 |  1879.44 |
+| Apu Nahasapeema | 083695 |  63416 | OOP345               |     2 |  1268.31 |
+| Artie Ziff      | 261382 |  44801 | OOP244-Introduction  |     2 |   896.02 |
+| Baby Gerald     | 081518 |  90670 | IPC144 - Introductio |     3 |  2720.10 |
+| Barney Gumble   | 054317 |  54859 | OOP345 - Object-Orie |     2 |  1097.17 |
+| Bart Simpson    | 088187 |  47608 | OOP244-Introduction  |     2 |   952.16 |
+| Bernice Hibbert | 026411 |  27777 | IPC144               |     3 |   833.31 |
+| Brandine Spuckl | 095421 |  51500 | OOP244-Introduction  |     2 |  1029.99 |
+| Bumblebee Man   | 117493 |  43554 | OOP345 - Object-Orie |     2 |   871.08 |
+| Carl Carlson    | 928072 |  23678 | OOP345 - Object-Orie |     2 |   473.57 |
