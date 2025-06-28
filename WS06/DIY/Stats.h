@@ -1,0 +1,5 @@
+namespace seneca {
+   class Stats {
+   };
+
+}
