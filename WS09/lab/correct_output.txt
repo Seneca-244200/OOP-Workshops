@@ -1,0 +1,29 @@
+Displaying T1 and T2 Transcripts:
+****************************************************************************
+John Doe (111456789)
+--------------------------------------------------------------------------
+DBS211: Introduction to Database Systems                               77
+OOP244: Introduction to Object-Oriented Programming                    85
+SFT221: Software Testing                                               55
+WEB222: Web Programming Principles                                     70
+EAC234: Science Fiction                                                90
+****************************************************************************
+****************************************************************************
+Jane Doe (122456789)
+--------------------------------------------------------------------------
+DBS211: Introduction to Database Systems                               90
+OOP244: Introduction to Object-Oriented Programming                    60
+SFT221: Software Testing                                               80
+WEB222: Web Programming Principles                                     75
+EAC234: Science Fiction                                                85
+****************************************************************************
+Testing Assignment Operator (T1 = T2):
+****************************************************************************
+Jane Doe (122456789)
+--------------------------------------------------------------------------
+DBS211: Introduction to Database Systems                               90
+OOP244: Introduction to Object-Oriented Programming                    60
+SFT221: Software Testing                                               80
+WEB222: Web Programming Principles                                     75
+EAC234: Science Fiction                                                85
+****************************************************************************
