@@ -1,0 +1,15 @@
+Stage 1: Testing two-argument dynaCopy
+Printing integer array with prnArray:
+10, 20, 30, 40
+Printing Name array with prnArray:
+David, Zari, Lucas, Mary
+
+Stage 2: Testing three-argument dynaCopy
+Printing updated integer array with prnArray:
+60, 70, 80, 90, 100
+Printing updated Name array with prnArray:
+Homer, Bart, Lisa, Marge, Maggie
+
+Stage 3: Edge case testing
+Single integer array:
+42
