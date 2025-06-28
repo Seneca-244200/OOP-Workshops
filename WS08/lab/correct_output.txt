@@ -1,0 +1,71 @@
+Nothing should be printed between these two lines
+------------------------------------
+------------------------------------
+Rectangle size correction:
++--------+
+|Bas Size|
++--------+
+Separator
+==================================================
++----------------------------+
+|Container                   |
+|                            |
+|                            |
++----------------------------+
+Enter the following:
+>Line two,40<ETNER>
+>Line two,40
+The following outputs should be the same
+The correct output:
+Line two
+========================================
+Your output:
+Line two
+========================================
+Enter the following:
+>A 50 by 4 frame to be printed on screen,50,4<ETNER>
+>A 50 by 4 frame to be printed on screen,50,4
+The following outputs should be the same
+The correct output:
++------------------------------------------------+
+| A 50 by 4 frame to be printed on screen        |
+|                                                |
++------------------------------------------------+
+Your output:
++------------------------------------------------+
+|A 50 by 4 frame to be printed on screen         |
+|                                                |
++------------------------------------------------+
+printing Line and Rectangle using Shape pointers: 
+Line two
+========================================
++------------------------------------------------+
+|A 50 by 4 frame to be printed on screen         |
+|                                                |
++------------------------------------------------+
+Reading the data from a file to check your
+insertion and extraction helpers
+line one
+==========
+line two
+==============================
+line three
+==================================================
+line four
+======================================================================
++-------------+
+|Step four    |
+|             |
++-------------+
++-----------------------+
+|Step three             |
+|                       |
++-----------------------+
++---------------------------------+
+|Step two                         |
+|                                 |
++---------------------------------+
++-------------------------------------------+
+|Step one                                   |
+|                                           |
++-------------------------------------------+
