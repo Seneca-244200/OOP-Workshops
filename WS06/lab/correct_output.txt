@@ -105,7 +105,7 @@ In this test we use your insertion and extraction operators to do
 File IO. This makes sure your implementation is done correctly
 using the reference of istream and ostream and NOT cin and cout
 
-N before adding thre numbers
+N before adding three numbers
 =========================
 numbers.txt
 3.00, 6.00, 12.20, 34.10, 34.56, 1000.00
