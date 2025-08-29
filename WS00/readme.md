@@ -1,6 +1,4 @@
 # Workshop #0 (ZERO): Computer and GitHub Account Preparation for Coding and Collaboration
-### Version 1.0.  The submission is open
-### Version 1.1.  [Added important file management commands using Git](#important-git-commands)
 
 ---
 
